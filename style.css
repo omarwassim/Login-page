@@ -1,0 +1,91 @@
+
+body
+{
+    background: url(./Screenshot\ 2023-12-24\ 152113.png) ;
+    background-attachment: fixed;
+    background-position: center;
+    background-size:cover;
+    margin: 0;
+    padding: 0;
+}
+header
+{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    text-align: center;
+}
+.logo
+{
+    font-family: "Poppins", sans-serif;
+    margin-left: 40px;
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 20px;
+}
+.navigation > a
+{
+    font-family: "Poppins", sans-serif;
+    text-decoration: none; 
+    color: aliceblue;
+    margin-right: 15px;
+}
+.main
+{
+    color: antiquewhite;
+    backdrop-filter: blur(10px);
+    z-index: 100;
+    text-align: center;
+    margin-top: 150px;
+    margin-left: 500px;
+    padding: 20px 20px ;
+    width: 500px;
+    border: 0.5px solid black;
+    border-radius: 20px;
+}
+.main:hover
+{
+    color: yellow;
+    transform: scale(1.1);
+    transition: calc(0.9s)ease-in-out;
+}
+form
+{
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+}
+label
+{
+    color: antiquewhite;
+    margin-top: 10px;
+    font-family: sans-serif;
+    font-size: larger;
+    font-weight: bolder;
+}
+input
+{
+    border-radius: 15px;
+    border: none;
+    margin-top:10px;
+    padding: 8px;
+}
+button
+{
+    padding: 8px;
+    margin-top: 15px;
+    border-radius: 25px;
+    width: 50%;
+    border: none;
+    background-color: darkblue;
+    color:white;
+}
+button:hover
+{
+    color: yellow;
+    transition: 0.7s ease;
+    transform: scale(1.1) ;
+}
